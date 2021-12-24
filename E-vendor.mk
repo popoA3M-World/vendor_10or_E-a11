@@ -53,25 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/10or/E/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/10or/E/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/10or/E/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537AA1/cmcc_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AA1/cmcc_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537AA1/ct_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AA1/ct_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537AA1/cu_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AA1/cu_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537AA1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AA1/row_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537AB1/cmcc_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/cmcc_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537AB1/ct_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/ct_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537AB1/cu_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/cu_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537BA1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537BA1/row_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537BA1/uae_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537BA1/uae_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537BA1/ytl_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537BA1/ytl_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537CA1/airtel_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/airtel_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537CA1/reliance_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/reliance_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537CA1/vodafone_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/vodafone_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537EC1/airtel_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/airtel_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn \
-    vendor/10or/E/proprietary/vendor/firmware/modem_config/S88537EC1/vodafone_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/vodafone_mcfg_sw.mbn \
     vendor/10or/E/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
     vendor/10or/E/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
     vendor/10or/E/proprietary/vendor/lib/libactuator_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345.so \
@@ -492,7 +473,6 @@ PRODUCT_COPY_FILES += \
     vendor/10or/E/proprietary/system_ext/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/10or/E/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.0.so \
     vendor/10or/E/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.1.so \
-    vendor/10or/E/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
     vendor/10or/E/proprietary/system_ext/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imscamera.so \
     vendor/10or/E/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
     vendor/10or/E/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
@@ -505,7 +485,6 @@ PRODUCT_COPY_FILES += \
     vendor/10or/E/proprietary/system_ext/lib64/libembmsmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libembmsmmparser_lite.so \
     vendor/10or/E/proprietary/system_ext/lib64/libembmssqlite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libembmssqlite.so \
     vendor/10or/E/proprietary/system_ext/lib64/libembmstinyxml.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libembmstinyxml.so \
-    vendor/10or/E/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
     vendor/10or/E/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
     vendor/10or/E/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/10or/E/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
